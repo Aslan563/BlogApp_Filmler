@@ -1,12 +1,5 @@
 <?php
- function jsondata(){
-   $myfile=fopen("db.json","r");
-   $size= filesize("db.json");
-   $jsonarray=json_decode(fread($myfile,$size),true);
-   fclose($myfile);
-   return $jsonarray;
-   
-};
+ 
 
 
   function getcategories(){
